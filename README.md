@@ -10,8 +10,7 @@
 
 - 💫 **Code an Assembler**: a program that will traduce a champion file (an assembly language) to a bytecode language (that will be readable by the Corewar program)
 
-- 🖥 **Create a Virtual Machine**: this is where the game takes place. More concretely, it's a box of 64 x 64 bytes of memory. This is where the game is taking place.
-
+- 🖥 **Create a Virtual Machine**: this is where the game takes place. More concretely, it's a box of 64 x 64 bytes of memory. 
 
 - 🦸🏼 **Load Champions into the Virtual Machine:** a champion is one of the player of Coreware and is basically a stack of instructions (saying what the player will "do" inside the virtual machine). 
 
@@ -41,7 +40,7 @@ An instruction will basically **write new instructions on the memory board** (an
 - st → write a value on the game board
 - live → allow a process to say alive.
 
-An instruction is executed when it's read by a cursor, the moving parts with inverted color. Cursors are reaad from the game board. Each player has one cursor at the beginning of a game. The game advances as the cursors read the instructions stored in the VM. If they end up on a faulty command or a blank memory, it moves to the next byte.
+An instruction is executed when it's read by a cursor, the moving parts with inverted color. Cursors are read from the game board. Each player has one cursor at the beginning of a game. The game advances as the cursors read the instructions stored in the VM. If they end up on a faulty command or a blank memory, it moves to the next byte.
 
 ## To summarize: 
 
